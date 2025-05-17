@@ -1,5 +1,5 @@
 
-✅ README.md (수정본)
+✅ README.md
 markdown
 복사
 편집
