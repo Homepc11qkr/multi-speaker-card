@@ -63,9 +63,7 @@ Stop button
 Station play buttons
 
 📸 Screenshot
-(Optional: Add screenshot.png to this directory for GitHub preview.)
-![image](https://github.com/user-attachments/assets/682eed83-5c16-49e9-bd45-3796b557e273)
-
+https://github.com/Homepc11qkr/multi-speaker-card/blob/main/Multi%20Speaker%20Card%20view.png
 📄 License
 MIT License
 
