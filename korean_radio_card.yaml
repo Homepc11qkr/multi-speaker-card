@@ -49,7 +49,4 @@ entities:
   - media_player.nest_hub_seojae
   - media_player.nest_audio_geosil
   - media_player.hommini_anbang
-  - media_player.esp32_ip53_esphome_speaker1
-  - media_player.pcm5102_esp32_ip54_media_player_pcm5102
-  - media_player.uda1334a_esp32s3_ip59_media_player_uda1334
-  - media_player.galaxy_home_mini_pt3j
+
