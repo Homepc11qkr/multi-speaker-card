@@ -1,0 +1,55 @@
+resources:
+  - url: /www/community/multi-speaker-card/multi-speaker-card.js
+    type: module
+type: custom:multi-speaker-card
+name: http://192.168.0.35:3005 https://radio.11q.kr
+links:
+  - url: http://192.168.0.35:3005/radio?keys=ytn&token=homeassistant
+    name: YTN
+  - url: https://cdnfm.tbs.seoul.kr/tbs/_definst_/tbs_fm_web_360.smil/playlist.m3u8
+    name: TBS@
+  - url: http://192.168.0.35:3005/radio?keys=tbnfm&token=homeassistant
+    name: TBN
+  - url: http://192.168.0.35:3005/radio?keys=ifm&token=homeassistant
+    name: iTV
+  - url: http://192.168.0.35:3005/radio?keys=ebsfm&token=homeassistant
+    name: EBS
+  - url: http://192.168.0.35:3005/radio?keys=cbs_music_fm&token=homeassistant
+    name: CBS Music
+  - url: http://192.168.0.35:3005/radio?keys=cbs_fm&token=homeassistant
+    name: CBS
+  - url: http://192.168.0.35:3005/radio?keys=kbs_cool&token=homeassistant
+    name: KBS Cool
+  - url: http://192.168.0.35:3005/radio?keys=kbs_happy&token=homeassistant
+    name: KBS Happy
+  - url: http://192.168.0.35:3005/radio?keys=kbs_classic&token=homeassistant
+    name: KBS Classic
+  - url: http://192.168.0.35:3005/radio?keys=kbs_1radio&token=homeassistant
+    name: KBS1
+  - url: https://radio.bsod.kr/stream/?stn=kbs&ch=2radio
+    name: KBS2
+  - url: http://192.168.0.35:3005/radio?keys=kbs_3radio&token=homeassistant
+    name: KBS3
+  - url: http://192.168.0.35:3005/radio?keys=sbs_power&token=homeassistant
+    name: SBS Power
+  - url: http://192.168.0.35:3005/radio?keys=sbs_love&token=homeassistant
+    name: SBS Love
+  - url: http://192.168.0.35:3005/radio?keys=mbc_fm&token=homeassistant
+    name: MBC
+  - url: http://192.168.0.35:3005/radio?keys=mbc_fm4u&token=homeassistant
+    name: MBC FM4U
+  - url: https://vod3.obs.co.kr:444/live/obsstream1/radio.stream/playlist.m3u8
+    name: OBS@
+  - url: https://vod3.obs.co.kr:444/live/obsstream1/radio.stream/playlist.m3u8
+    name: OBS2@
+  - url: >-
+      https://amdlive-ch03-ctnd-com.akamaized.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
+    name: arirang_3ch@
+entities:
+  - media_player.nest_hub_seojae
+  - media_player.nest_audio_geosil
+  - media_player.hommini_anbang
+  - media_player.esp32_ip53_esphome_speaker1
+  - media_player.pcm5102_esp32_ip54_media_player_pcm5102
+  - media_player.uda1334a_esp32s3_ip59_media_player_uda1334
+  - media_player.galaxy_home_mini_pt3j
