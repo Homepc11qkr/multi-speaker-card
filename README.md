@@ -1,3 +1,5 @@
+https://github.com/Homepc11qkr/multi-speaker-card/blob/main/README.md
+
 ✅ README.md (영문 설명 포함)
 markdown
 복사편집
