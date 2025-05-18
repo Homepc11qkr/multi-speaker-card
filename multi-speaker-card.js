@@ -28,10 +28,9 @@ class MultiSpeakerCard extends HTMLElement {
 
       this.content.appendChild(this.buildSpeakerSwitches(hass));
       this.content.appendChild(this.buildVolumeSlider());
-
       this.content.appendChild(this.buildStationList());
 
-      // ⬇️ 이 줄 추가
+      // 2025_0518_1124_45
       const footer = document.createElement('div');
       footer.style = 'text-align: center; font-size: 12px; color: gray; margin-top: 1em;';
       footer.innerHTML = `<a href="https://github.com/Homepc11qkr/multi-speaker-card" target="_blank" style="color: gray; text-decoration: none;">multi-speaker-card by Homepc11qkr</a>`;
