@@ -157,4 +157,5 @@ Home Assistant OS 2025.5.0에서 테스트 및 수정되었습니다.
 ⚠️ 참고: 원본 jukebox-card는 HAOS 2025.5.0에서 방송이 동작하지 않습니다.
 ✅ 이 버전은 HAOS 2025.5.0과 호환되도록 수정되었습니다.
 
- 
+ 수정정보 공유 > 2025_0519_1236_48
+https://cafe.naver.com/homestation/333
